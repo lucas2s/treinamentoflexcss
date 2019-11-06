@@ -37,8 +37,8 @@ header#main-header .content {
 }
 
 header#main-header .content img{
-  height: 36px;
-  width: 36px;
+  height: 34px;
+  width: 34px;
   margin: 0 10px;
 }
 
@@ -324,10 +324,40 @@ div.wrapper-content aside.widgets {
   margin-top: 10px;
 }
 
+div.wrapper-content aside.widgets .politics {
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .politics p {
+  font-size: 12px;
+  color: #9fa1a3;
+}
+
+div.wrapper-content aside.widgets .politics p span{
+  margin-left: 10px;
+}
 
 div.wrapper-content aside.widgets .widget {
   background-color: #fff;
   padding: 15px;
+}
+
+div.wrapper-content aside.widgets .trends {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .trends ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.widgets .trends ul li {
+  color: #3bb9e3;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 div.wrapper-content aside.widgets .widget .title {
